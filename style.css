@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    background-image: url("https://media.istockphoto.com/id/1178010552/vector/clean-white-cover-with-gold-beautiful-flower-golden-vector-mandala-isolated-on-white.jpg?s=612x612&w=0&k=20&c=j4GueDND0a9MmXAOgDUCvR_ZRVH4fyYi2CZbOtrvOB4=");
+    background-attachment: scroll;
+    background-position: top-right;
+    background-size: 1000px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+h1 {
+    color: rgba(134, 14, 233, 0.911);
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 50px;
+    font-variant-east-asian: traditional;
+}
+
+h2 {
+    color: rgb(255, 94, 0);
+    
+}
+
+h3 {
+    color: rgb(255, 145, 0);
+}

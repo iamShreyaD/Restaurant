@@ -14,7 +14,6 @@
     width: 100%;
     background-color: rgb(94, 9, 62);
     height: 180px;
-    
 }
 
 nav {
@@ -32,7 +31,7 @@ nav img {
 #nav-links {
     flex: 1;
     text-align: right;
-    padding: 3% 0;
+    padding: 2.5% 0 2.5%;
 }
 
 .nav-links ul li {
@@ -108,58 +107,166 @@ nav img {
 
 
 .menu {
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
-.campus-col {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+.row {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: contents;
+}
+
+.row h1 {
+    font-size: 46px;
+    font-weight: 600;
+    display: table-header-group;
+    margin-bottom: 20px;
+    text-align: contents;
+}
+
+.row p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.row .campus-col {
+    flex-basis: 31%;
+    background: #fccbcb;
+    border: 10px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.campus-col img {
     display: inline-block;
+    width: 250px;
+    height: 170px;
+    padding: 0 10px;
 }
 
-campus-col img {
-    width: 40px;
-    height: 40px;
-    display: block;
-
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 5px;
+    font-size: 20px;
+    
 }
 
-.layer {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+.campus-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.layer:hover {
-    background: rgba(228, 211, 211, 0.7);
+
+/*-------------------------------------------------------------------------locations.html--------------------------------------------------------------------------------------*/
+
+.myHeader {
+    text-align: center;
+    padding-top: 11%;
+    padding-bottom: 4%;
 }
 
-.layer h3 {
-    width: 100%;
+.myHeader h1 {
+    color: rgb(94, 9, 62);
     font-weight: 700;
-    color: #000000;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
-    position:absolute;
-    opacity: 0;
-    transition: 0.5s;
+    font-size: 44px;
 }
 
-.layer:hover h3 {
-    bottom: 49%;
-    opacity: 1
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    align-items: center;
 }
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 70%;
+    margin: auto;
+    align-items: right;
+}
+
+.address {
+    flex-basis: 98%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: right;
+}
+
+.address .fa {
+    font-size: 24px;
+    color: rgb(94, 9, 62);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.address h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.phone {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: right;
+}
+
+.phone .fa {
+    font-size: 24px;
+    color: rgb(94, 9, 62);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.phone h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.time {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: right;
+}
+
+.time .fa {
+    font-size: 24px;
+    color: rgb(94, 9, 62);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.time h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
 
 
 
